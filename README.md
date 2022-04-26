@@ -1,9 +1,9 @@
 ## Real-time Face Mask Detection with tensorflow object detection API and SSD MobileNet
 ![N|Solid](https://tryolabs.com/assets/blog/2020-07-09-face-mask-detection-in-street-camera-video-streams-using-ai-behind-the-curtain/2020-07-09-face-mask-detection-in-street-camera-video-streams-using-ai-behind-the-curtain.png)
 ## A propos de ce document
-Ceci est un document markdown sur ma première tâche dans mon stage de fin d'études à Inetum Fablab. Le document résume la présentation qui a été divisée en 2 parties : présentation générale et atelier (l'atelier est l'implémentation dans la table des matières).
+Ceci est un document markdown sur ma première tâche dans mon stage de fin d'études à Fablab Inetum. Le document résume la présentation qui a été divisée en 2 parties : présentation générale et atelier (l'atelier est l'implémentation dans la table des matières).
 Auteur : 
-- Nafaa BOUGRAINE [Linkedin](https://www.linkedin.com/in/nafaa-bougraine/) <nafaa.bougraine@um5r.ac.ma>  
+- Nafaa BOUGRAINE [Linkedin](https://www.linkedin.com/in/nafaa-bougraine/) <nafaabougraine2016@gmail.com>  
 
 
 ## Table of Contents
@@ -22,11 +22,6 @@ Auteur :
     + [_Training_](#Training)
     + [_Evaluation_](#evaluation)
 - [Exporter le modele](#exporter-le-modele)
-- [Predictions en Real Time](#predictions-en-real-time)
-- 
-
-## Introduction
-Ce projet propose un moyen simple d'atteindre cet objectif en utilisant certains outils fondamentaux d'apprentissage automatique comme TensorFlow, Keras, OpenCV et Scikit-Learn. La technique proposée reconnaît avec succès le visage dans l'image ou la vidéo, puis détermine s'il porte ou non un masque. En tant qu'exécutant de tâches de surveillance, elle peut également reconnaître un visage accompagné d'un masque en mouvement ainsi que dans une vidéo. La technique atteint une excellente précision. Nous étudions les valeurs optimales des paramètres du modèle de réseau neuronal convolutif (CNN) afin d'identifier l'existence de masques avec précision sans générer de surajustement.
 
 
 ## Object Detection
